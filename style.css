@@ -8,18 +8,21 @@ body{
     width: 160px;
     height: 160px;
     margin: 20px;
+
 }
+
 
 .container{
     display: flex;
      justify-content: center;
-     flex-direction: row;
+     flex-direction: unset;
      
 
 }
 
 h1{color: #fff;
-    margin-left: 530px;
+    margin-left: 520px;
+    font-size: 30px;
    
 }
 
@@ -28,10 +31,11 @@ button{
     color: #FFFFFF;
     background-color: black;
     position: absolute;
-    left: 600px;
-    right: 600px;
-    top: 370px;
-    bottom: 210px;
+    left:590px;
+    right:600px;
+    top: 400px;
+    bottom: 110px;
+   
     
     border: 1.5px solid #FFFFFF;
     box-sizing: border-box;
@@ -49,6 +53,16 @@ button{
    
 
 img{display: inline-block;
-    margin-left: 600px;
-    height: 50px;
+    margin-left: 550px;
+    height: 70px;
 }
+
+h5{
+    color: gray;
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+
+
